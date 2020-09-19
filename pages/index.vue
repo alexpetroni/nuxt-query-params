@@ -2,26 +2,12 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
+      <h1>
         nuxt-query-params
       </h1>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+        <nuxt-link :to="{path: '/user/100', query: {v:'simple'}}">Test Link</nuxt-linK>
+
       </div>
     </div>
   </div>
